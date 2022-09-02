@@ -1,0 +1,96 @@
+/* .profileContainer {
+  display: flex;
+}
+.profileUserNameAndEmail {
+  flex: 8;
+  margin: 15px 15px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 5px 10px #888888;
+}
+.profileMyFollowings {
+  margin-top: 10px;
+  flex: 4;
+}
+.profileFollowAndChat {
+  display: flex;
+  align-items: center;
+} */
+
+/*  */
+.profilePageWrapper {
+  display: flex;
+}
+.profilePageRightbar {
+  flex: 3.5;
+}
+.profilePageMiddle {
+  flex: 8.5;
+}
+.profilePagePicture {
+  height: 37vh;
+  position: relative;
+}
+.profilePageCoverPicture {
+  height: 35vh;
+  width: 100%;
+  object-fit: contain;
+}
+.profilePageProfilePicture {
+  z-index: 1;
+  width: 80px;
+  left: 44%;
+  border: 2px solid white;
+  height: 80px;
+  border-radius: 50%;
+}
+.profilePagePostAndInfo {
+  display: flex;
+}
+.profilePagePostAndShare {
+  flex: 5;
+}
+.profilePageUserInfo {
+  flex: 5;
+  padding-left: 15px;
+}
+p {
+  margin: 2px;
+}
+.profilePageFollowings {
+  display: flex;
+  flex-wrap: wrap;
+}
+.profilePageFollowing {
+  width: 90px;
+  height: 90px;
+  margin: 5px;
+}
+.profilePageCoverPictureEditIcon{
+  position:absolute;
+  top:0;;
+  right: 2px;
+  cursor:pointer;
+  color:red;
+  z-index: 1;
+}
+@media screen and (max-width: 600px) {
+  .profilePageRightbar {
+    display: none;
+  }
+  .profilePagePostAndShare {
+    flex: 8;
+  }
+  .profilePageUserInfo {
+    flex: 4;
+  }
+  .profilePagePicture {
+    height: 20vh;
+    position: relative;
+  }
+  .profilePageCoverPicture {
+    height: 18vh;
+    object-fit: contain;
+  }
+}

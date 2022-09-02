@@ -1,0 +1,50 @@
+.shareWrapper {
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 10px;
+}
+.shareInput {
+  display: flex;
+}
+.shareProfileImage {
+  width: 35px;
+  height: 35px;
+  margin-right: 5px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.shareUserInput {
+  border-radius: 5px;
+  border: 1px solid gray;
+  width: 100%;
+}
+.fa-cog {
+  color: orange;
+}
+.shareMediaFiles {
+  display: flex;
+  justify-content: space-between;
+}
+.sharePhotoOrVideo {
+  cursor: pointer;
+  padding: 2px;
+}
+.sharePhotoOrVideo:hover {
+  border: 1px solid gray;
+  border-radius: 4px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+.sharePreviewBox {
+  width: 100%;
+  position: relative;
+}
+.sharePreviewImage {
+  width: 100%;
+}
+.shareDeletePreviewImage {
+  position: absolute;
+  cursor: pointer;
+  top: 2px;
+  right: 5px;
+  color: red;
+}

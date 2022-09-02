@@ -1,0 +1,25 @@
+.dashboardWrapper {
+  display: flex;
+}
+.dashboardRightbar {
+  flex: 3.5;
+}
+.dashboardPostsAndShare {
+  flex: 5;
+}
+.dashboardSideBar {
+  margin-left: 10%;
+  padding: 10px;
+  flex: 3.5;
+}
+@media screen and (max-width: 700px) {
+  .dashboardRightbar {
+    display: none;
+  }
+  .dashboardPostsAndShare {
+    margin: 10px;
+  }
+  .dashboardSideBar {
+    display: none;
+  }
+}

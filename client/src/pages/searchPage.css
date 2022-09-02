@@ -1,0 +1,32 @@
+.searchBox {
+  display: flex;
+  border: 1px solid gray;
+  margin: 10px auto;
+  width: 50vw;
+  border-radius: 10px;
+}
+.searchfollow {
+  padding: 10px;
+  flex: 1;
+}
+.searchEmailAndEmail {
+  padding: 10px;
+  flex: 11;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+.searchProfilePicture{
+  width: 10%;
+  aspect-ratio: 1/1;
+  object-fit: contain;
+  border-radius: 50%;
+}
+@media screen and (max-width: 600px) {
+  .searchBox {
+    display: flex;
+    border: 1px solid gray;
+    margin: 5px auto;
+    width: 95vw;
+    border-radius: 10px;
+  }
+}
